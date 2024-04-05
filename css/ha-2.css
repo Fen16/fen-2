@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Karla";
+    src: url("/Шрифт/Karla.ttf") format("opentype")
+}
+.body{
+    height: 1000vh;
+    background-color: gray;
+    
+}
+.backend{
+    height: 1000vh;
+    width: 1980px;
+    background-color: #FFFFFF;
+    
+}
+.header{
+    display: flex;
+    background-image: url(/Фон/BG\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1980px;
+    height: 345px;
+    background-size: cover;
+}
+.headlogo{
+    font-size: 36px;
+    margin-top: 50px;
+    margin-left: 370px;
+    color: #FFFFFF;
+}
+.nav{
+    margin-left: 300px;
+    margin-top: 60px;
+}
+.nav-item{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0px 40px;
+    font-size: 20px;
+}
+.login{
+    
+    color: #FFFFFF;
+    font-size: 13px;
+    border: none;
+    background: none;
+    margin-top: 65px;
+    margin-left: 130px;
+}
+.sign_up{
+    color: #BB6DF3;
+    margin-left: 50px;
+    font-size: 13px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    width: 132px;
+    height: 36px;
+}
+.page1{
+    text-align: center;
+}
+.page2{
+
+    text-align: center;
+    margin-top: 110px;
+    background-image: url(/Фон/Contacts\ section.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1980px;
+    height: 973px;
+    background-size: cover;
+}
+.email, .name, .message {
+    display: flex;
+    justify-content: center;
+  }
+  .but1{
+    display: flex;
+    justify-content: center;
+  }
+  .but{
+    color: #FFFFFF;
+    
+    font-size: 24px;
+    background-image: linear-gradient(to right, #43A1D6, #907EFF);
+    border: none;
+    border-radius: 40px;
+    margin-top: 20px;
+    width: 250px;
+    height: 79px;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    
+  }
+  .page3{
+    background-image: url(/Фон/Stats\ panel.png) ;
+    margin-top: 600px;
+    
+    background-repeat: no-repeat;
+    width: 1980px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 261px;
+}
+.page3-1{
+    display: flex;
+    margin-left: 420px;
+    margin-top: 40px;
+}
+.page3-2{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.nomer{
+    font-size: 42px;
+    color: #425B8C;
+}
+.stroka{
+   font-size: 24px; 
+   color: #718DC2;
+}
+.footer{
+    background-image: url(/Фон/Footer\ section.jpg) ;
+    margin-top: 200px;
+    background-size: cover;
+    height: 1085px;
+    
+    background-repeat: no-repeat;
+}
+.footer-poloj{
+    display: flex;
+    
+}
+.footer-text{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 250px;
+    padding-top: 50px;
+}
