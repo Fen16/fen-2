@@ -30,7 +30,13 @@
     background-color: #FFFFFF;
     
 }
-
+button {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+button:hover {
+    transform: scale(1.2);
+}
 .header{/*** Header ***/
     display: flex;
     background-image: url(/fen-3/Фон/BG\ 1.png);
@@ -40,13 +46,7 @@
     height: 345px;
     background-size: cover;
 }
-button {
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  button:hover {
-    transform: scale(1.2);
-  }
+
 .headlogo{
     font-size: 36px;
     margin-top: 50px;
@@ -73,7 +73,7 @@ button {
     background: none;
     margin-top: 65px;
     margin-left: 130px;
-    font-family: "Poppins";
+    font-family: Poppins;
 }
 .sign_up{
     color: #BB6DF3;
@@ -84,57 +84,56 @@ button {
     border-radius: 62px;
     width: 132px;
     height: 36px;
-    font-family: "Poppins";
+    font-family: Poppins;
 }
-.section1{/*** Section1 ***/
+.section1-1{/*** Section1 ***/
     text-align: center;
 }
-.section2{/*** Section2 ***/
-    font-family: "Comfortaa";
-    text-align: center;
-    margin-top: 110px;
-    background-image: url(/fen-3/Фон/Contacts\ section.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 1980px;
-    height: 973px;
-    background-size: cover;
+.section1-2{/*** Section2 ***/
+    display: flex;
+    margin-top: 60px;
+    margin-right: 100px;
+    font-family: Roboto;
 }
-.email, .name, .message {
-    display: flex;
+.section1-3{/*** Section2 ***/
     justify-content: center;
+    text-align: center;
     font-family: "Comfortaa";
-  }
-  .but1{
+}
+.email {
     display: flex;
     justify-content: center;
-    
   }
-  .but{
+.but{
     color: #FFFFFF;
-    
     font-size: 24px;
     background-image: linear-gradient(to right, #43A1D6, #907EFF);
     border: none;
     border-radius: 40px;
     margin-top: 20px;
-    width: 250px;
+    width: 350px;
     height: 79px;
     background-repeat: no-repeat;
-    margin-left: 100px;
-    font-family: "Comfortaa";
-  }
-  .section3{/*** Section3 ***/
-    background-image: url(/fen-3/Фон/Stats\ panel.png) ;
-    margin-top: 600px;
+    margin-left: 150px;
     
+}
+.section1{/*** Section ***/
+    background-image: url(/fen-3/Фон/FAQ\ section.png);
+    background-size: cover;
+    background-position: center;
+    height: 1015px;
+}
+
+.section4{/*** Section4 ***/
+    background-image: url(/fen-3/Фон/Stats\ panel.png) ;
+    margin-top: 300px;
+    font-family: "Comfortaa";
     background-repeat: no-repeat;
     width: 1980px;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     height: 261px;
-    font-family: "Comfortaa";
 }
 .page3-1{
     display: flex;

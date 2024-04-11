@@ -73,7 +73,7 @@ button {
     background: none;
     margin-top: 65px;
     margin-left: 130px;
-    font-family: "Poppins";
+    font-family: Poppins;
 }
 .sign_up{
     color: #BB6DF3;
@@ -84,31 +84,30 @@ button {
     border-radius: 62px;
     width: 132px;
     height: 36px;
-    font-family: "Poppins";
+    font-family: Poppins;
+}
+.section{/*** Section ***/
+    background-image: url(/fen-3/Фон/FAQ\ section.png);
+    
+    background-repeat: no-repeat;
+    width: 1980px;
+    height: 1015px;
+    background-size: cover;
 }
 .section1{/*** Section1 ***/
     text-align: center;
 }
 .section2{/*** Section2 ***/
+    justify-content: center;
+    margin-top: 50px;
     font-family: "Comfortaa";
-    text-align: center;
-    margin-top: 110px;
-    background-image: url(/fen-3/Фон/Contacts\ section.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 1980px;
-    height: 973px;
-    background-size: cover;
 }
 .email, .name, .message {
     display: flex;
     justify-content: center;
-    font-family: "Comfortaa";
   }
   .but1{
-    display: flex;
-    justify-content: center;
-    
+    text-align: center;
   }
   .but{
     color: #FFFFFF;
@@ -118,23 +117,22 @@ button {
     border: none;
     border-radius: 40px;
     margin-top: 20px;
-    width: 250px;
+    width: 350px;
     height: 79px;
     background-repeat: no-repeat;
     margin-left: 100px;
-    font-family: "Comfortaa";
+    
   }
   .section3{/*** Section3 ***/
     background-image: url(/fen-3/Фон/Stats\ panel.png) ;
-    margin-top: 600px;
-    
+    margin-top: 500px;
+    font-family: "Comfortaa";
     background-repeat: no-repeat;
     width: 1980px;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     height: 261px;
-    font-family: "Comfortaa";
 }
 .page3-1{
     display: flex;
@@ -156,7 +154,7 @@ button {
 }
 .footer{/*** Footer ***/
     background-image: url(/fen-3/Фон/Footer\ section.jpg) ;
-    margin-top: 200px;
+    margin-top: 500px;
     background-size: cover;
     height: 1085px;
     font-family: "Comfortaa";

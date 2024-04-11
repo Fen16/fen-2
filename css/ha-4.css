@@ -63,7 +63,7 @@ button {
     text-decoration: none;
     margin: 0px 40px;
     font-size: 20px;
-    font-family: "Comfortaa";
+    font-family: "Comfortaa";   
 }
 .login{
     
@@ -73,7 +73,7 @@ button {
     background: none;
     margin-top: 65px;
     margin-left: 130px;
-    font-family: "Poppins";
+    font-family: Poppins;
 }
 .sign_up{
     color: #BB6DF3;
@@ -84,50 +84,96 @@ button {
     border-radius: 62px;
     width: 132px;
     height: 36px;
-    font-family: "Poppins";
+    font-family: Poppins;
 }
 .section1{/*** Section1 ***/
     text-align: center;
+    background-image: url(/fen-3/Фон/Price\ section.png) ;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: left 60% ;
+    
 }
 .section2{/*** Section2 ***/
-    font-family: "Comfortaa";
     text-align: center;
-    margin-top: 110px;
-    background-image: url(/fen-3/Фон/Contacts\ section.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 1980px;
-    height: 973px;
-    background-size: cover;
-}
-.email, .name, .message {
-    display: flex;
-    justify-content: center;
+    margin-top: 60px;
     font-family: "Comfortaa";
-  }
-  .but1{
+}
+.page2-tarif{
     display: flex;
+    padding-top: 70px;
     justify-content: center;
+}
+.tarif1{
+    padding-top: 120px;
+    width: 450px;
+    height: 807;
+    margin-right: 20px;
     
-  }
-  .but{
+    
+}
+.tarif2{
+    width: 620px;
+    height: 1002;
+}
+.tarif3{
+    
+    padding-top: 120px;
+    width: 450px;
+    height: 807;
+    margin-left: 80px;
+}
+.tarif_text{
+    margin-left: 80px;
+    margin-top: 110px;
+}
+.tarif_text2{
+    margin-top: 105px;
+    margin-left: 218px;
+    
+}
+.tarif_text3{
+    margin-top: 110px;
+    margin-left: 80px;
+}
+.days{
+    font-size: 48px;
+    color: #3B668D;
+}
+.sale{
+    font-size: 64px;
+    color: #8572FF;
+    margin-top: 30px;
+}
+.line{
+    margin-top: 100px;
+
+    border-top: 1px solid #D3D3D3;
+}
+.harakter{
+    margin-top: 90px;
+    font-size: 24px;
+    color:  #567796 ;
+    text-align: left;
+    
+    
+}
+.but-tarif{
     color: #FFFFFF;
+    padding-top: 25px;
+    margin-top: 120px;
     
     font-size: 24px;
-    background-image: linear-gradient(to right, #43A1D6, #907EFF);
+    background-image:  linear-gradient(to right, #43A1D6, #907EFF);
     border: none;
-    border-radius: 40px;
-    margin-top: 20px;
+    border-radius: 62px;
     width: 250px;
     height: 79px;
     background-repeat: no-repeat;
-    margin-left: 100px;
-    font-family: "Comfortaa";
-  }
-  .section3{/*** Section3 ***/
+}
+.section3{/*** Section3 ***/
     background-image: url(/fen-3/Фон/Stats\ panel.png) ;
-    margin-top: 600px;
-    
+    margin-top: 300px;
     background-repeat: no-repeat;
     width: 1980px;
     background-size: cover;

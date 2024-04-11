@@ -4,12 +4,26 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: "Karla";
-    src: url("/Шрифт/Karla.ttf") format("opentype")
+    font-family: "Poppins";
+    src: url("/fen-3/Шрифт/Poppins-Light.ttf") format("opentype")
+}
+@font-face {
+    font-family: "Comfortaa";
+    src: url("/fen-3/Шрифт/Comfortaa.ttf") format("opentype")
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("/fen-3/Шрифт/Montserrat-Regular.ttf") format("opentype")
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("/fen-3/Шрифт/Roboto.ttf") format("opentype")
 }
 .body{
+        
     height: 1000vh;
     background-color: gray;
+    overflow-x: hidden
     
 }
 .backend{
@@ -18,21 +32,29 @@
     background-color: #FFFFFF;
     
 }
-.header{
+.header{/*** Header ***/
     display: flex;
-    background-image: url(/Фон/section\ 1.png);
+    background-image: url(/fen-3/Фон/section\ 1.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 1980px;
-    height: 1056px;
+    height: 1096px;
     background-size: cover;
     
 }
+button {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  button:hover {
+    transform: scale(1.2);
+  }
 .headlogo{
     font-size: 36px;
     margin-top: 50px;
     margin-left: 370px;
     color: #FFFFFF;
+    font-family: "Comfortaa";
 }
 .headimage{
     width: 1980px;
@@ -47,6 +69,7 @@
     text-decoration: none;
     margin: 0px 40px;
     font-size: 20px;
+    font-family: "Comfortaa";
 }
 
 .login{
@@ -57,6 +80,7 @@
     background: none;
     margin-top: 65px;
     margin-left: 130px;
+    font-family: "Poppins";
 }
 .sign_up{
     color: #BB6DF3;
@@ -64,16 +88,17 @@
     font-size: 13px;
     background-color: #FFFFFF;
     border: none;
-    border-radius: 10px;
+    border-radius: 62px;
     width: 132px;
     height: 36px;
-    
+    font-family: "Poppins";
 }
 .Personal_header{
     display: flex;
     padding-top: 300px;
     padding-left: 370px;
     position: absolute;
+    
 }
 .text_header{
     
@@ -85,6 +110,7 @@ hr{ margin-right: 20px;
     border-top: 3px solid #3B668D;
     
 }
+
 .pc_img{
     width: 790px;
     height: 716px;
@@ -92,8 +118,8 @@ hr{ margin-right: 20px;
 .Try{
     color: #FFFFFF;
     
-    font-size: 13px;
-    background-image: url(/Изображение/Пузырь-верх.png) ,url(/Изображение/Пузырь-праый.png),url(/Изображение/Пузырь\ левый.png), linear-gradient(to right, #39B8FF, #9039FF);
+    font-size: 24px;
+    background-image: url(/fen-3/Изображение/Пузырь-верх.png) ,url(/fen-3/Изображение/Пузырь-праый.png),url(/fen-3/Изображение/Пузырь\ левый.png), linear-gradient(to right, #39B8FF, #9039FF);
     border: none;
     border-radius: 40px;
     margin-top: 20px;
@@ -101,8 +127,9 @@ hr{ margin-right: 20px;
     height: 75px;
     background-repeat: no-repeat;
     background-position:20px 0 ,220px 25px, 0 0 , 50% 25%;
+    font-family: "Comfortaa";   
 }
-.page1{
+.section1{/*** Section1 ***/
     margin: 0px;
 }
 .page1-img{
@@ -119,14 +146,15 @@ hr{ margin-right: 20px;
     margin-top: 15px;
     padding-left: 15px;
 }
-.page2{
+
+.section2{/*** Section2 ***/
     text-align: center;
     margin-top: 360px;
-    background-image: url(/Фон/Price\ section.png) ;
+    background-image: url(/fen-3/Фон/Price\ section.png) ;
     background-repeat: no-repeat;
     background-size: 15%;
     background-position: left 60% ;
-    background-size: cover;
+    
 }
 .page2-tarif{
     display: flex;
@@ -138,12 +166,13 @@ hr{ margin-right: 20px;
     width: 450px;
     height: 807;
     margin-right: 20px;
-    
+    font-family: "Comfortaa";
     
 }
 .tarif2{
     width: 620px;
     height: 1002;
+    font-family: "Comfortaa";
 }
 .tarif3{
     
@@ -151,6 +180,7 @@ hr{ margin-right: 20px;
     width: 450px;
     height: 807;
     margin-left: 80px;
+    font-family: "Comfortaa";
 }
 .tarif_text{
     margin-left: 80px;
@@ -163,7 +193,7 @@ hr{ margin-right: 20px;
 }
 .tarif_text3{
     margin-top: 110px;
-    margin-left: 130px;
+    margin-left: 80px;
 }
 .days{
     font-size: 48px;
@@ -200,8 +230,8 @@ hr{ margin-right: 20px;
     height: 79px;
     background-repeat: no-repeat;
 }
-.page3{
-    background-image: url(/Фон/Stats\ panel.png) ;
+.section3{/*** Section3 ***/
+    background-image: url(/fen-3/Фон/Stats\ panel.png) ;
     margin-top: 280px;
     background-repeat: no-repeat;
     display: flex;
@@ -212,11 +242,13 @@ hr{ margin-right: 20px;
     display: flex;
     margin-left: 420px;
     margin-top: 40px;
+    font-family: "Comfortaa";
 }
 .page3-2{
     display: flex;
     margin-left: 150px;
     margin-top: 40px;
+    font-family: "Comfortaa";
 }
 .nomer{
     font-size: 42px;
@@ -226,13 +258,14 @@ hr{ margin-right: 20px;
    font-size: 24px; 
    color: #718DC2;
 }
-.footer{
-    background-image: url(/Фон/Footer\ section.jpg) ;
+.footer{/*** Footer ***/
+    background-image: url(/fen-3/Фон/Footer\ section.jpg) ;
     margin-top: 100px;
     width: 1980px;
     height: 1085px;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: "Comfortaa";
 }
 .footer-poloj{
     display: flex;

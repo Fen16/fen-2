@@ -88,53 +88,54 @@ button {
 }
 .section1{/*** Section1 ***/
     text-align: center;
+    background-image: url(/fen-3/Фон/FAQ\ section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1980px;
+    height: 980px;
+}
+.tabel{
+    margin-top: 120px;
+    justify-content: center;
+    margin-left: 380px;
+}
+.How1{
+    font-size: 30px;
+    color: #46637E;
+    background-image: linear-gradient(to right, #B1E3FF, #DFBEFF);
+    width: 1199px;
+    height: 87px;
+    font-family: "Comfortaa";
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 25px;
+    display: flex;
+}
+.How{
+    font-family: "Comfortaa";
+    font-size: 30px;
+    color: #46637E;
+    background-image: linear-gradient(to right, #B2E3FF, #DFBFFF);
+    width: 1199px;
+    height: 87px;
+    
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 25px;
+    display: flex;
 }
 .section2{/*** Section2 ***/
-    font-family: "Comfortaa";
-    text-align: center;
-    margin-top: 110px;
-    background-image: url(/fen-3/Фон/Contacts\ section.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 1980px;
-    height: 973px;
-    background-size: cover;
-}
-.email, .name, .message {
-    display: flex;
-    justify-content: center;
-    font-family: "Comfortaa";
-  }
-  .but1{
-    display: flex;
-    justify-content: center;
-    
-  }
-  .but{
-    color: #FFFFFF;
-    
-    font-size: 24px;
-    background-image: linear-gradient(to right, #43A1D6, #907EFF);
-    border: none;
-    border-radius: 40px;
-    margin-top: 20px;
-    width: 250px;
-    height: 79px;
-    background-repeat: no-repeat;
-    margin-left: 100px;
-    font-family: "Comfortaa";
-  }
-  .section3{/*** Section3 ***/
     background-image: url(/fen-3/Фон/Stats\ panel.png) ;
     margin-top: 600px;
-    
+    font-family:   Comfortaa;
     background-repeat: no-repeat;
     width: 1980px;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     height: 261px;
-    font-family: "Comfortaa";
 }
 .page3-1{
     display: flex;
@@ -159,7 +160,7 @@ button {
     margin-top: 200px;
     background-size: cover;
     height: 1085px;
-    font-family: "Comfortaa";
+    font-family:   Comfortaa;
     background-repeat: no-repeat;
 }
 .footer-poloj{
